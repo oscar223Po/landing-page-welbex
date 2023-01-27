@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project</title>
+</head>
+
+<body>
+	<div class="rootpage">
+		<h1>Project «Welbex»</h1>
+		<h2>Pages:</h2>
+		<ol class="rootpage__list">
+			<li><a target="_blank" href="home.html">Landing</a></li>
+		</ol>
+		<div class="rootpage__tnx">
+			<h2>Thanks for the order!</h2>
+			<p>I will be glad of a good review.</p>
+			<p>Contact us again!</p>
+		</div>
+		<div class="rootpage__contacts">
+			<h2>My contacts:</h2>
+			<p>LinkedIn: <a href="https://www.linkedin.com/in/zhantaev-oscar-a5a2a7259">Zhantaev-Oscar</a></p>
+			<p>Telegram: <a href="https://t.me/svyourself">@svyourself</a></p>
+		</div>
+	</div>
+</body>
+<style>
+	@charset "UTF-8";
+	@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
+
+	*,
+	*::before,
+	*::after {
+		padding: 0px;
+		margin: 0px;
+		border: 0px;
+		box-sizing: border-box;
+	}
+
+	html,
+	body {
+		overflow-x: hidden;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		min-width: 320px;
+		width: 100%;
+		letter-spacing: 2px;
+		color: #fff;
+		background: #263238;
+	}
+
+	body {
+		font-family: Montserrat;
+		font-size: 100%;
+		line-height: 1;
+		font-size: 1rem;
+	}
+
+	a {
+		text-decoration: underline;
+		color: #ebe691;
+		font-size: 20px;
+	}
+
+	a:visited {
+		text-decoration: underline;
+		color: #fff;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+
+	ul li {
+		list-style: none;
+	}
+
+	img {
+		vertical-align: top;
+	}
+
+	.wrapper {
+		width: 100%;
+		min-height: 100%;
+		overflow: hidden;
+	}
+
+	.rootpage {
+		padding: 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	@media (max-width: 767px) {
+		.rootpage {
+			padding: 30px 15px;
+		}
+	}
+
+	h1 {
+		color: #fff;
+		font-style: italic;
+		font-size: 2.5rem;
+		margin: 0px 0px 1.25rem 0px;
+	}
+
+	@media (max-width: 767px) {
+		h1 {
+			font-size: 1.85rem;
+			margin: 0px 0px 1.25rem 0px;
+		}
+	}
+
+	h2 {
+		color: #ebe691;
+		font-size: 1.25rem;
+		margin: 0px 0px 1rem 0px;
+	}
+
+	@media (max-width: 767px) {
+		h2 {
+			font-size: 1.125rem;
+			margin: 0px 0px 1rem 0px;
+		}
+	}
+
+	::-webkit-scrollbar {
+		width: 0.2rem;
+		border-radius: 0.5rem;
+		background-color: #fff;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background-color: #ccc;
+		border-radius: 0.5rem;
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+		background-color: #fff;
+	}
+
+	.rootpage__info {
+		line-height: 140%;
+		margin: 0px 0px 1.5rem 0px;
+	}
+
+	.rootpage__list {
+		margin: 10px 0px 2.25rem 1.25rem;
+	}
+
+	.rootpage__list li:not(:last-child) {
+		margin: 0px 0px 15px 0px;
+	}
+
+	.rootpage__contacts,
+	.rootpage__tnx {
+		border-radius: 10px;
+		padding: 20px 40px;
+		font-size: 20px;
+		line-height: 140%;
+	}
+
+	@media (max-width: 767px) {
+
+		.rootpage__contacts,
+		.rootpage__tnx {
+			border-radius: 40px;
+			padding: 20px;
+		}
+	}
+
+	.rootpage__contacts {
+		background: #262626;
+	}
+
+	.rootpage__contacts a {
+		color: #ebe691;
+	}
+
+	.rootpage__tnx {
+		background: #7F713E;
+		margin: 0px 0px 1rem 0px;
+	}
+</style>
+
+</html>
